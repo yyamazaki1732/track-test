@@ -1,5 +1,10 @@
 body {
+  display: grid;
+  height: 100vh;
   font-size: 18px;
+
+  place-items: center;
+  ;
 }
 
 span {
@@ -81,11 +86,15 @@ button {
   box-shadow: 0 0 4px #000;
 }
 
-.display span {
+.display p {
   margin-top: 12px;
 }
 
-.display span:first-child {
+.display span {
+  display: inline-block;
+}
+
+.display p:first-child {
   margin-top: 0;
   padding-bottom: 12px;
   border-bottom: 1px solid #ccc;
